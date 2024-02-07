@@ -1,0 +1,39 @@
+body{
+    margin:0;
+    padding: 0;
+    background: url(coffee.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+}
+#id{
+   text-align: center;
+   color: aqua;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.loginbox{
+    background-color: black;
+   color: beige;
+   width: 320px;
+   padding: 40px 30px 20px 30px;
+}
+button{
+    background-color: blue;
+    width: 200px;
+    align-items: center;
+    border-radius: 10px;
+}
+.img{
+    align-items: center;
+    width:100px;
+    height: 100px;
+    border-radius:50%;
+    position:relative;
+    left: 100px;
+}
